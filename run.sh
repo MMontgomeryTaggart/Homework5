@@ -7,6 +7,7 @@ source ./VENV2.7/bin/activate
 
 pip install scikit-learn
 pip install numpy
+pip install scipy
 
 cd code
 python main.py
