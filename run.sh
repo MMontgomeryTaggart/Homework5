@@ -1,8 +1,8 @@
 #!/bin/bash
 
-pip install -U virtualenv
+pip install --user virtualenv
 
-virtualenv ./VENV2.7
+python -m virtualenv ./VENV2.7
 source ./VENV2.7/bin/activate
 
 pip install scikit-learn
