@@ -1,0 +1,40 @@
+\section{Logistic Regression}\label{sec:q1}
+
+\begin{enumerate}
+\item~[5 points] What is the derivative of the function
+  $g(\mathbf{w})=\log(1+\exp(-y_i \mathbf{w}^T\mathbf{x}_i))$ with
+  respect to the weight vector?\\
+  The derivative with respect to $w$ is
+\begin{equation*}
+  \frac{1}{1+\exp(-y_i \mathbf{w}^T\mathbf{x}_i)}(-y_i \mathbf{x}_i) \exp(-y_i \mathbf{w}^T\mathbf{x}_i)
+\end{equation*}
+
+\item~[5 points] The inner most step in the SGD algorihtm is the
+  gradient update where we use a single example instead of the entire
+  dataset to compute the gradient.  Write down the objective where the
+  entire dataset is composed of a single example, say
+  $(\mathbf{x}_i, y_i)$.  Derive the gradient with respect to the
+  weight vector.\\
+  The objective, $J(\mathbf{w})$, for a single example is 
+\begin{equation*}
+    J(\mathbf{w})=\log(1+\exp(-y_i \mathbf{w}^{T}\mathbf{x}_i))+\frac{1}{2\sigma^2}\mathbf{w}^T \mathbf{w}
+\end{equation*} \\
+The gradient with respect to the weight vector is 
+\begin{equation*}
+  \frac{dJ}{d\mathbf{w}} = \frac{1}{1+\exp(-y_i \mathbf{w}^T\mathbf{x}_i)}(-y_i \mathbf{x}_i) \exp(-y_i \mathbf{w}^T\mathbf{x}_i) + \frac{1}{2\sigma^2}\mathbf{w}
+\end{equation*}
+
+\item~[10 points] Write down the pseudo code for the stochastic
+  gradient algorithm using the gradient from previous part.\\
+  \\
+  for i in testSet:\\
+  gradient = $\frac{dJ}{d\mathbf{w}}(y_i, \mathbf{x}_i, \mathbf{w})$\\
+  $\mathbf{w}$ = $\mathbf{w}$ - gradient
+
+
+\end{enumerate}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "hw"
+%%% End:

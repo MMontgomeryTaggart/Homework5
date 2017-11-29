@@ -1,0 +1,14 @@
+Best params:
+{'smoothing': 0.5}
+Best Average Training Accuracy:
+0.689856389289
+Training Accuracy: 0.727466
+Test Accuracy: 0.676596
+
+Final:
+Best params for <class 'models.NaiveBayes.NaiveBayes'>:
+{'smoothing': 0.5}
+Best Average Training Accuracy:
+0.689856389289
+Training Accuracy: 0.727466
+Test Accuracy: 0.676596

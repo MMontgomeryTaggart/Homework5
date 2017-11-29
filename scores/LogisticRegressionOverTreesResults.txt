@@ -1,0 +1,15 @@
+Best params for <class 'models.LogisticRegression.LogisticRegression'>:
+{'r': 0.001, 'sigma': 1000.0}
+Best Average Training Accuracy:
+0.549645390071
+Training Accuracy: 0.594393
+Test Accuracy: 0.574468
+
+
+Final:
+Best params for <class 'models.LogisticRegression.LogisticRegression'>:
+{'r': 0.001, 'sigma': 1000.0}
+Best Average Training Accuracy:
+0.549645390071
+Training Accuracy: 0.594393
+Test Accuracy: 0.574468

@@ -1,0 +1,15 @@
+Best params:
+{'epochs': 3, 'r': 0.001, 'sigma': 1000}
+Best Average Training Accuracy:
+0.831786173999
+Training Accuracy: 0.843506
+Test Accuracy: 0.794681
+
+
+Final:
+Best params for <class 'models.LogisticRegression.LogisticRegression'>:
+{"epochs": 3, 'r': 0.001, 'sigma': 100.0}
+Best Average Training Accuracy:
+0.776344615229
+Training Accuracy: 0.848474
+Test Accuracy: 0.800000

@@ -1,0 +1,22 @@
+Result for <class 'models.BaggedForest.BaggedForest'>:
+Best Average Training Accuracy:
+0.5
+Training Accuracy: 0.500000
+Test Accuracy: 0.500000
+
+
+Result for <class 'models.BaggedForest.BaggedForest'>:
+Depth: 10
+Vote threshold: 0.05
+Best Average Training Accuracy:
+0.634756820878
+Training Accuracy: 0.806955
+Test Accuracy: 0.692553
+
+
+Final:
+Result for <class 'models.BaggedForest.BaggedForest'>:
+Depth: 10
+Vote threshold: 0.05
+Training Accuracy: 0.793825
+Test Accuracy: 0.685106

@@ -1,0 +1,15 @@
+Best params for <class 'models.SVM.SVM'>: (Over Bagged Forest)
+{'C': 10, 'r': 0.001}
+Best Average Training Accuracy:
+0.603205370889
+Training Accuracy: 0.729241
+Test Accuracy: 0.663830
+
+
+Final:
+Best params for <class 'models.SVM.SVM'>: (Over Bagged Forest)
+{'C': 10, 'r': 0.001}
+Best Average Training Accuracy:
+0.603205370889
+Training Accuracy: 0.729241
+Test Accuracy: 0.663830

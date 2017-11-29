@@ -1,0 +1,32 @@
+Best params:
+{'epochs': 3, 'C': 10, 'r': 0.0001}
+Best Average Training Accuracy:
+0.846694934504
+Training Accuracy: 0.855571
+Test Accuracy: 0.814894
+
+Best params:
+{'epochs': 3, 'C': 1000, 'r': 1e-05}
+Best Average Training Accuracy:
+0.854503924686
+Training Accuracy: 0.912704
+Test Accuracy: 0.830851
+
+
+
+
+With Bias Term:
+Best params for <class 'models.SVM.SVM'>:
+{'C': 10, 'r': 0.0001}
+Best Average Training Accuracy:
+0.775991267257
+Training Accuracy: 0.862669
+Test Accuracy: 0.817021
+
+Final:
+Best params for <class 'models.SVM.SVM'>:
+{'C': 10, 'r': 0.0001}
+Best Average Training Accuracy:
+0.775991267257
+Training Accuracy: 0.862669
+Test Accuracy: 0.817021
