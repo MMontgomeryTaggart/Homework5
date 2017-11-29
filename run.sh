@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pip install -U virtualenv
+
 virtualenv ./VENV2.7
 source ./VENV2.7/bin/activate
 
