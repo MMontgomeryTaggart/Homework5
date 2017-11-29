@@ -1,6 +1,6 @@
 #!/bin/bash
 
-virtualenv --system-site-packages ./VENV2.7
+virtualenv ./VENV2.7
 source ./VENV2.7/bin/activate
 
 pip install scikit-learn
